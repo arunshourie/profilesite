@@ -50,8 +50,8 @@ gsap.to('#mavline',{
 scrollTrigger:{
 trigger:'#mavheading',
 start:"top center",
-scrub:2,
-toggleActions:"restart none none none"
+endTrigger:
+markers:true,
 
 },
 width:0,
