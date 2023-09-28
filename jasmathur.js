@@ -54,7 +54,7 @@ end:"bottom 100%",
 markers:true,
 
 },
-scaleX:0,
+scaleX:0%,
 duration:2
 
 });
