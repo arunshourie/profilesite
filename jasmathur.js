@@ -39,7 +39,7 @@ gsap.to('.herotitle',{
 
 scrollTrigger:{
 trigger:'.maverick-container',
-toggleActions:"restart none reverse reset"
+toggleActions:"restart none none reverse"
 
 },
 y:500,
