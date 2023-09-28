@@ -54,7 +54,7 @@ endTrigger:
 markers:true,
 
 },
-width:0,
+scaleX:0,
 duration:2
 
 });
