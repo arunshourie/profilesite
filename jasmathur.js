@@ -46,9 +46,9 @@ duration:2
 
 });
 
-gsap.to('.mavline',{
+gsap.to('#mavline',{
 scrollTrigger:{
-trigger:'.mmavline',
+trigger:'#mavline',
 start:"top center",
 scrub:2,
 toggleActions:"restart none none none"
