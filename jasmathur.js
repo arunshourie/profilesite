@@ -35,8 +35,6 @@ tl.from(chars, {
 });
 
 gsap.to('.herotitle',{
-
-
 scrollTrigger:{
 trigger:'.maverick-container',
 scrub:2,
@@ -44,6 +42,19 @@ toggleActions:"restart none none reverse"
 
 },
 y:500,
+duration:2
+
+});
+
+gsap.to('.mavline',{
+scrollTrigger:{
+trigger:'.mmavline',
+start:"top center",
+scrub:2,
+toggleActions:"restart none none none"
+
+},
+width:0,
 duration:2
 
 });
