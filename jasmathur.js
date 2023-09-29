@@ -12,12 +12,12 @@ $('.industry-hover').on('mouseenter mouseleave', function() {
 });
 
 $('.link-top').on('mouseleave', function() {
-    $(this).closest('.industry-hover').removeClass('bottomalign');
+    $(this).closest('.industry-hover').removeClass('bottompush');
     $(this).closest('.industry-hover').find('.marquee').removeClass('bottomalign');
 });
 
 $('.link-bottom').on('mouseleave', function() {
-    $(this).closest('.industry-hover').addClass('bottomalign');
+    $(this).closest('.industry-hover').addClass('bottompush');
     $(this).closest('.industry-hover').find('.marquee').addClass('bottomalign');
 });
 
