@@ -52,7 +52,6 @@ trigger:'#mavheading',
 start:"top center",
 scrub:2,
 end:"bottom 100%",
-toggleActions:"restart none none reverse",
 markers:true,
 ease:'back'
 
@@ -67,7 +66,6 @@ trigger:'#buildingheading',
 start:"top center",
 scrub:2,
 end:"bottom 100%",
-toggleActions:"restart none reverse none",
 markers:true,
 ease:'back'
 
