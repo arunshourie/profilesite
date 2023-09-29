@@ -61,7 +61,7 @@ scrub:2,
 markers:true,
 start:"top center",
 toggleActions:"restart none none reverse",
-pin:'.maverick-pin'
+pin:'.maverick-clamper'
 
 },
 width:"0%",
