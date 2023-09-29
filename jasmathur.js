@@ -57,8 +57,7 @@ markers:true,
 ease:'back'
 
 },
-width:"0%",
-duration:2
+width:"0%"
 
 });
 
@@ -73,8 +72,7 @@ markers:true,
 ease:'back'
 
 },
-width:"100%",
-duration:2
+width:"100%"
 
 });
 /*
