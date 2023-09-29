@@ -54,9 +54,26 @@ scrub:2,
 end:"bottom 100%",
 toggleActions:"restart none none reverse",
 markers:true,
+ease:'back'
 
 },
 width:"0%",
+duration:2
+
+});
+
+gsap.to('#buildingline',{
+scrollTrigger:{
+trigger:'#buildingheading',
+start:"top center",
+scrub:2,
+end:"bottom 100%",
+toggleActions:"restart none reverse none",
+markers:true,
+ease:'back'
+
+},
+width:"100%",
 duration:2
 
 });
