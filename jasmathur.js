@@ -10,17 +10,17 @@ $('.industry-hover').on('mouseenter mouseleave', function() {
   $(this).find('.fill').toggleClass('expand');
   $(this).find('.marquee').toggleClass('showthis');
 });
-/*
+
 $('.link-top').on('mouseleave', function() {
-    $(this).closest('.industry-hover').removeClass('bottom');
-    $(this).closest('.industry-hover').find('.marquee').removeClass('bottom');
+    $(this).closest('.industry-hover').removeClass('bottomalign');
+    $(this).closest('.industry-hover').find('.marquee').removeClass('bottomalign');
 });
 
 $('.link-bottom').on('mouseleave', function() {
-    $(this).closest('.industry-hover').addClass('bottom');
-    $(this).closest('.industry-hover').find('.marquee').addClass('bottom');
+    $(this).closest('.industry-hover').addClass('bottomalign');
+    $(this).closest('.industry-hover').find('.marquee').addClass('bottomalign');
 });
-*/
+
 
 
 
