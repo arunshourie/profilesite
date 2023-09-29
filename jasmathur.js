@@ -44,7 +44,7 @@ tl.from(chars, {
 
 gsap.to('.herotitle',{
 scrollTrigger:{
-trigger:'.maverick-container',
+trigger:'.maverick-pin',
 scrub:2,
 toggleActions:"restart none none reverse",
 pin:".maverick-pin"
