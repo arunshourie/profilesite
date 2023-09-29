@@ -12,13 +12,13 @@ $('.industry-hover').on('mouseenter mouseleave', function() {
 });
 
 $('.link-top').on('mouseleave', function() {
-    $(this).closest('.link').removeClass('bottom');
-    $(this).closest('.link').find('.marquee').removeClass('bottom');
+    $(this).closest('.industry-hover').removeClass('bottom');
+    $(this).closest('.industry-hover').find('.marquee').removeClass('bottom');
 });
 
 $('.link-bottom').on('mouseleave', function() {
-    $(this).closest('.link').addClass('bottom');
-    $(this).closest('.link').find('.marquee').addClass('bottom');
+    $(this).closest('.industry-hover').addClass('bottom');
+    $(this).closest('.industry-hover').find('.marquee').addClass('bottom');
 });
 
 
