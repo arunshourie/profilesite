@@ -49,29 +49,26 @@ duration:2
 gsap.to('#mavline',{
 scrollTrigger:{
 trigger:'#mavheading',
-start:"top center",
 scrub:2,
-end:"bottom 100%",
 markers:true,
-ease:'back'
+toggleActions:"restart none none reverse"
 
 },
-width:"0%"
-
+width:"0%",
+duration:2
 });
 
 gsap.to('#buildingline',{
 scrollTrigger:{
 trigger:'#buildingheading',
-start:"top center",
 scrub:2,
-end:"bottom 100%",
 markers:true,
-
+toggleActions:"restart none none reverse"
 
 },
 width:"100%",
-ease:'back'
+duration:2
+
 });
 /*
 var options = {
