@@ -67,11 +67,11 @@ start:"top center",
 scrub:2,
 end:"bottom 100%",
 markers:true,
-ease:'back'
+
 
 },
-width:"100%"
-
+width:"100%",
+ease:'back'
 });
 /*
 var options = {
