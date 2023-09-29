@@ -44,10 +44,9 @@ tl.from(chars, {
 
 gsap.to('.herotitle',{
 scrollTrigger:{
-trigger:'.maverick-pin',
+trigger:'.maverick-container',
 scrub:2,
-toggleActions:"restart none none reverse",
-pin:".maverick-pin"
+toggleActions:"restart none none reverse"
 
 },
 y:500,
@@ -61,7 +60,8 @@ trigger:'#mavheading',
 scrub:2,
 markers:true,
 start:"top center",
-toggleActions:"restart none none reverse"
+toggleActions:"restart none none reverse",
+pin:'.maverick-pin'
 
 },
 width:"0%",
