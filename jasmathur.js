@@ -2,6 +2,30 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother,SplitText);
 
 $(document).ready(function(){
 
+/* Hover Function */
+
+
+
+$('.industry-hover').on('mouseenter mouseleave', function() {
+  $(this).find('.fill').toggleClass('expand');
+  $(this).find('.marquee').toggleClass('visible');
+});
+
+$('.link-top').on('mouseleave', function() {
+    $(this).closest('.link').removeClass('bottom');
+    $(this).closest('.link').find('.marquee').removeClass('bottom');
+});
+
+$('.link-bottom').on('mouseleave', function() {
+    $(this).closest('.link').addClass('bottom');
+    $(this).closest('.link').find('.marquee').addClass('bottom');
+});
+
+
+
+
+
+
 var hero = $('#hero');
 var qoute = $('#quote');
 gsap.from(hero, {duration: 1, x: 60, delay:.5, autoAlpha: 0});
