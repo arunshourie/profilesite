@@ -51,6 +51,7 @@ scrollTrigger:{
 trigger:'#mavheading',
 scrub:2,
 markers:true,
+start:"top center",
 toggleActions:"restart none none reverse"
 
 },
@@ -63,6 +64,7 @@ scrollTrigger:{
 trigger:'#buildingheading',
 scrub:2,
 markers:true,
+start:"top center",
 toggleActions:"restart none none reverse"
 
 },
